@@ -287,6 +287,11 @@ section{
       display: none;
     }
   }
+  .col-sm-4{
+    @include phone{
+      display: none;
+    }
+  }
 }
 
 .jumbotron{
@@ -592,7 +597,7 @@ footer{
     float: right;
   }
   i{
-    font-size: 1.2vw;
+    font-size: 20px;
     margin-right: 10px;
   }
   li{

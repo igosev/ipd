@@ -308,6 +308,11 @@ section .fa {
     display: none;
   }
 }
+@media only screen and (max-width: 576px) {
+  .hero-banners .col-sm-4 {
+    display: none;
+  }
+}
 
 .jumbotron {
   margin: 0;
@@ -611,7 +616,7 @@ footer .footer-icon:hover {
   float: right;
 }
 .contacts i {
-  font-size: 1.2vw;
+  font-size: 20px;
   margin-right: 10px;
 }
 .contacts li {
